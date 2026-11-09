@@ -11,3 +11,11 @@ def test_subtract():
 
 def test_multiply():
     assert multiply(4, 3) == 12
+
+
+def test_multiply_negative():
+    assert multiply(-2, 3) == -6
+
+
+def test_multiply_decimals():
+    assert multiply(0.5, 4) == 2.0
