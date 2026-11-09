@@ -1,3 +1,3 @@
-from .operations import add, subtract
+from .operations import add, multiply, subtract
 
-__all__ = ["add", "subtract"]
+__all__ = ["add", "multiply", "subtract"]
